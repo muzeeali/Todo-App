@@ -59,6 +59,20 @@ ul{
    
     text-align: right !important;
 }
+@media only screen and (min-width:1600px)
+{
+  
+            .ulbody{
+                height: 550px;
+            }
+}
+@media only screen and (max-width:1350px)
+{
+  
+            .ulbody{
+                height: 400px;
+            }
+}
 
 @media only screen and (max-width:900px)
 {
@@ -69,6 +83,7 @@ ul{
       #todo{
           width: 70%;
             }
+         
 }
 @media only screen and (max-width:700px)
 {
